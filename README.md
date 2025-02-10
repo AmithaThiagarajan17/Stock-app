@@ -37,8 +37,8 @@ The primary goal of this project is to:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-repo/stock-service.git
-   cd stock-service
+   git clone git@github.com:AmithaThiagarajan17/Stock-app.git
+   cd stock-app
    ```
 
 2. Add your **API Key** for the external stock API (e.g., Alpha Vantage) to `application.properties`:
@@ -64,7 +64,7 @@ The primary goal of this project is to:
 4. The application will run on a random port, and you can make a request to the stock endpoint:
 
    ```bash
-   curl http://localhost:8080/stocks/options/AAPL
+   curl http://localhost:8080/stock/options/AAPL
    ```
 
    You should receive the stock options for the symbol `AAPL`.
